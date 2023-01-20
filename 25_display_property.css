@@ -1,0 +1,31 @@
+span{
+    display: block;
+    color: red;
+    /* margin: 50px 0px ;
+    padding:0px; */
+}
+#div1{
+    height: 300px;
+    width: 400px;
+    background-color: blue;
+}
+
+
+#div2{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(223, 21, 21);
+    
+}
+/* div{
+   display: inline-block;
+} */
+#para1{
+    color:red;
+     display:inline-block;
+}
+#para2{
+    color:blue;
+    display: inline;
+    /* text-decoration:; */
+}
