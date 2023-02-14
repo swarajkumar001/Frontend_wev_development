@@ -1,0 +1,16 @@
+#background-image{
+    height: 100vh;
+    width: 100vw;
+    /* for background imag */
+    background-image: url(media/pic2.jpg),url(media/pic1.jpg); 
+    /* to check reapeat or not in the parent  */
+    background-repeat: no-repeat;
+    /* position of the image  */
+    background-position: center;
+
+    background-size: contain;
+    background-attachment: fixed;
+}
+all.h3{
+    background-color: red;
+}

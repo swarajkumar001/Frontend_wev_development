@@ -1,0 +1,37 @@
+#animation{
+    top: 20%;
+    left: 20%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-color: rgb(207, 23, 23);
+    /* transition: 1s ease-in-out; */
+    /* transition: 1s ease-out; */
+    transition: 1s steps(10,end);
+}
+#animation:hover{
+
+    /* /height: 150px;
+    width: 150px;
+    left: 40%; */
+    transform: scale(1.2) translate(150px);
+    color: blue;
+    background-color: chartreuse;
+
+}
+
+#task1{
+    top: 50%;
+    left: 20%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color: rgb(143, 207, 23);
+    transition: 1s steps(5,end);
+
+}
+#task1:hover{
+    border-radius: 50%;
+   transform: scale(0.5) translate(150px)  rotate(360deg) ;
+
+}

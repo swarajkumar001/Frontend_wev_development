@@ -1,0 +1,25 @@
+#container{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    display: flex;
+}
+
+#container div{
+    height: 300px;
+    width: 300px;
+}
+
+#div1{
+    background-color: brown;
+    flex-grow: 4;
+    flex-shrink: 4;
+
+}
+
+#div2{
+    background-color: rgb(5, 233, 17);
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+

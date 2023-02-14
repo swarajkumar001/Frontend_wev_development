@@ -1,0 +1,6 @@
+#container{
+    height: auto;
+    width: 30px;
+    border: solid red 2px;
+    overflow-wrap: break-word;
+}

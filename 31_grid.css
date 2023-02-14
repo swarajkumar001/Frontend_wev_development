@@ -1,0 +1,21 @@
+.container{
+    background-color: aqua;
+    height: 600px;
+    width: 600px;
+    display: grid;
+    /* grid-template-columns: 130px 130px 130px;
+    grid-template-rows: 130px 130px 130px; */
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+
+
+
+}
+.items{
+    background-color: chocolate;
+    /* height: 122px;
+    width: 122px; */
+    /* border: solid 2px black; */
+}

@@ -1,0 +1,30 @@
+#container{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(155, 142, 83);
+    display: flex;
+    flex-direction:row;
+    /* flex-wrap: wrap-reverse;
+    justify-content: space-between; */
+    justify-content: center;
+    align-items: stretch;
+    
+}
+
+#container div{
+    /* height: 100px; */
+    max-height: 300px;
+    width: 100px;
+}
+#div1{
+    background-color: brown;
+}
+#div2{
+    background-color: rgb(206, 13, 13);
+}
+#div3{
+    background-color: rgb(144, 245, 13);
+}
+#div4{
+    background-color: rgb(17, 247, 247);
+}

@@ -1,0 +1,30 @@
+#div1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+#div2{
+    height: 200px;
+    width: 200px;
+    background-color:#138c37;
+}
+
+
+#div3{
+    height: 200px;
+    width: 200px;
+    background-color:rgba(12,34,56,0.8);
+}
+
+#div4{
+    height: 200px;
+    width: 200px;
+    background-color:hsl(306,78%,46%, 0.6);
+
+    /* the last a for opacity which range 0 to 1 */
+}
+
+p{
+    color: rgba(255,0,0,1);
+}

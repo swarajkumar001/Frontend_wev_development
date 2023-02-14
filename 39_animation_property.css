@@ -1,0 +1,62 @@
+
+@keyframes changeshape{
+    from{
+        border-radius: 0%;
+    }
+
+    to{
+        border-radius: 50%;
+    }
+   
+
+
+
+}
+
+/* we can also define animation namer in this ways  */
+@keyframes changeshape1{
+    0%{
+        border-radius: 0%;
+    }
+    25%{
+        border-radius: 0%;
+    }
+    50%{
+        border-radius: 0%;
+    }
+    75%{
+        border-radius: 0%;
+    }
+
+    100%{
+        border-radius: 50%;
+    }
+   
+
+
+
+}
+
+
+
+#animation{
+  height: 300px;
+  width: 300px;
+  top: 30%;
+  left: 30%;
+  position:relative;
+  background-color: rgb(24, 213, 238); 
+  /* animation : animation_name animation_duration timing_function no._of_times ; */
+  animation: changeshape 2s ease-in-out infinite alternate;
+
+ 
+}
+#animation1{
+    height: 300px;
+    width: 300px;
+    top: 70%;
+    left: 30%;
+    position:absolute;
+    background-color: rgb(181, 238, 24);
+    animation: changeshape1 2s ease-in-out infinite alternate;
+  }

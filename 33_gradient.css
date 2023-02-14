@@ -1,0 +1,28 @@
+#div1{
+    height: 300px;
+    width: 300px;
+    border: solid black 3px;
+   
+    /* background-image: linear-gradient(  to top right,red ,blue ,cyan); */
+    /* background-image: linear-gradient(  120deg,red ,blue ,cyan); */
+    background-color: linear-gradient( to bottom left,red ,blue ,cyan);
+}
+#div2{
+    height: 300px;
+    width: 300px;
+    border: solid black 3px;
+    /* background: repeating-radial-gradient(red,blue); */
+    background: repeating-linear-gradient(to top right,red,blue,cyan);
+
+  
+}
+
+#div3{
+    height: 300px;
+    width: 300px;
+    border: solid black 3px;
+    background: repeating-radial-gradient(red 30px,cyan ,blue);
+  
+}
+
+

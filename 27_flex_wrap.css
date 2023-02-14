@@ -1,0 +1,36 @@
+#container{
+    height: 140px;
+    width: 90vw;
+    background-color: aqua;
+    display: flex;
+    flex-direction:column-reverse;
+    flex-wrap:wrap-reverse;
+
+}
+
+#container div{
+    height: 60px;
+    width: 200px;
+    /* border-radius: 50%; */
+}
+
+#div1{
+    background-color: red;
+    /* order: 2; */
+}
+#div2{
+    background-color: rgb(49, 15, 241);
+    /* order: 3; */
+}
+#div3{
+    background-color: rgb(90, 230, 25);
+    /* order: -1; */
+}
+#div4{
+    background-color: rgb(235, 15, 125);
+    /* order: 9; */
+}
+#div5{
+    background-color: rgb(113, 115, 143);
+    /* order: -2; */
+}

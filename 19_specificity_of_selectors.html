@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/CSS" href="19_specifity_of_selectors.css">
+    <title>Specifity of selectors</title>
+</head>
+<body>
+    
+
+    <!-- if multiple selectors are taken for e tag and the style 
+        is conflicting then which style will get more preference -->
+
+        <p>
+            this is paragraph tag
+        </p>
+        <p class="color-pink">
+            type as well as class selectors
+        </p>
+
+        <p class="color-pink"id="color-blue" > 
+           this is type selectors, class selectors as well as id selectors
+
+        </p>
+        <p style="color: aqua;" class="color-pink"id="color-green" >
+            this is type selectors, class selectors , id selectors and inline css rule as well..
+        </p>
+
+        <h3 > 
+            inline css>> id_selectors>>class_selectors>>type_selectors...
+<br>
+            agar do do class , same rule wale hain to jo latest wala hai use jyada preference milega ....
+        </h3>
+
+
+
+
+
+
+</body>
+</html>
