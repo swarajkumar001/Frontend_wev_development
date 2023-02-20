@@ -1,0 +1,23 @@
+
+#Lightbox{
+    height: 0;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: all 2s ease-in-out;
+}
+
+#Lightbox:target{
+    height: 300px;
+    width: 300px;
+    top: 25%;
+    left: 25%;
+    background-color: rgb(236, 150, 21);
+    background-image: url(media/pic1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+

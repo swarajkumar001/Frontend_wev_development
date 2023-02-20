@@ -1,0 +1,37 @@
+@keyframes bounce{
+    0%{
+        transform: translateY(-100px);
+
+    }
+    25%{
+        transform: translateY(0px);
+
+    }
+    50%{
+        transform: translateY(-50px);
+
+    }
+    75%{
+        transform: translateY(-75px);
+        /* color:antiquewhite; */
+
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+#div1 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    background-color: rgb(180, 48, 15);
+    /* animation: bounce 2s ease-in-out  infinite alternate; */
+    animation: bounce 1s ease-in-out  infinite alternate ;
+  }
+  
+  
